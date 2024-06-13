@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 5px solid black;
+}
+
+#box1{
+    width: 350px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    
+    /* animations */
+    animation-name: rightMovement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rightMovement{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 1500px;
+    }
+}
+
+#box2{
+    width: 350px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    left: 1500px;
+    
+    /* animations */
+    animation-name: leftMovement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+@keyframes leftMovement{
+    from{
+        top: 150px;
+        left: 1500px;
+    }
+    to{
+        top: 150px;
+        left: 0;
+    }
+}
+
+#circle{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 2px solid brown;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    
+    /* animations */
+    animation-name: circleMovement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+@keyframes circleMovement{
+    0%{
+        top: 1%;
+        left: 5%;
+    }
+    30%{
+        top: 1%;
+        left: 95%;
+    }
+    70%{
+        top: 75%;
+        left: 95%;
+    }
+    100%{
+        top: 75%;
+        left: 1%;
+    }
+}

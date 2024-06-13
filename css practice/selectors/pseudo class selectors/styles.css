@@ -1,0 +1,32 @@
+/* Syntax - 
+selector:pseudoClass {
+
+}
+
+*/
+
+/* Any non-visited link will be converted to red color. */
+
+#google:link {
+  color: pink;
+}
+
+/* Any visited link will be converted to cyan. */
+
+/* #watson:visited  {
+  color: rgb(13, 255, 255);
+} */
+
+/* Any link that you hover should be converted to yellow. */
+
+/* #google:hover {
+  color: red;
+} */
+
+/* a:hover {
+  color: pink;
+} */
+
+a:active {
+  color: yellow;
+}

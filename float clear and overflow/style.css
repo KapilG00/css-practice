@@ -1,0 +1,15 @@
+#arcwarden{
+    width: 600px;
+    /* used for positioning and layout on web pages */
+    float: right;
+    margin-left: 10px;
+}
+
+#dota2{
+    width: 600px;
+    height: 375px;
+    float: right;
+    margin-left: 10px;
+    /* to remove the floating either on left or right of any element */
+    clear: right
+}

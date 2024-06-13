@@ -1,0 +1,23 @@
+/* element selector */
+p{
+    color: aquamarine;
+}
+
+/* id selector */
+#article1{
+    color: red;
+}
+
+/* class selector */
+.paraclass1{
+    background-color: black;
+}
+
+/* group selector */
+p, article{
+    width: 500px;
+}
+
+p.paraclass1{
+    text-align: center;
+}

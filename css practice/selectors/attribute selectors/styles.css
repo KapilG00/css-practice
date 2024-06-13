@@ -1,0 +1,25 @@
+/* 1. If we want to check the value is starting from some string.
+Syntax: [attribute^=value]
+*/
+
+[class^="sport"] {
+  background-color: red;
+}
+
+/*
+2. If we want to check the value is starting from last of a string.
+Syntax: [attribute$=value]
+*/
+
+[class$="sport"] {
+  background-color: yellow;
+}
+
+/*
+3. If we want to check the value is in the string.
+Syntax: [attribute*=value]
+*/
+
+[class*="content"] {
+  background-color: pink;
+}

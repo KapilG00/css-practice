@@ -1,0 +1,43 @@
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.para1{
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+    /* padding: 90px;
+    margin: 90px; */
+}
+
+.para2{
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.para3{
+    background-color: cyan;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 300px;
+}

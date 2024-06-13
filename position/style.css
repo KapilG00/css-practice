@@ -1,0 +1,46 @@
+.container{
+    border: 1px solid black;
+    position: relative;
+    height: 4000px;
+}
+
+.box{
+    background-color: aqua;
+    height: 3000px;
+}
+
+.div1{
+    display: inline-block;
+    border: 1px solid green;
+    margin: 10px;
+    /* fixed position */
+    position: fixed;
+}
+
+.div2{
+    display: inline-block;
+    border: 1px solid blue;
+    margin: 10px;
+    /* relative position */
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.div3{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 10px;
+    /* absolute position */
+    position: absolute;
+    top: 50px
+}
+
+.div4{
+    display: inline-block;
+    border: 1px solid purple;
+    margin: 10px;
+    /* sticky position */
+    position: sticky;
+    top: 120px;
+}

@@ -1,0 +1,14 @@
+.box{
+    border: 1px solid black;
+    /* if we dont write this then parent element gets collapsed */
+    overflow: auto;
+}
+
+.item{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    float: left;
+    background-color: antiquewhite;
+}

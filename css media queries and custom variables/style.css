@@ -1,0 +1,18 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+/* @media (min-width: 500px){
+    .box{
+        background-color: aquamarine;
+    }
+} */
+
+@media (min-width: 200px) and (max-width: 500px){
+    .box{
+        background-color: aquamarine;
+    }
+}

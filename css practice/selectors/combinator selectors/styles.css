@@ -1,0 +1,35 @@
+/*------ 1. Descendant ------- */
+/* Selects all elements that are descendants of a specified element. */
+
+/* .article p {
+  background-color: red;
+} */
+
+/* ------- 2. Child (>) ------- */
+/* Selects elements that are direct children of a specified element. */
+
+/* .article > p {
+  background-color: green;
+} */
+
+/*------- 3. Adjacent Sibling (+) -------*/
+/* Selects an element that is the next sibling immediately following a specified element. */
+
+.article + p {
+  background-color: blue;
+}
+
+/*------- 4. General Sibling Selector (~) ------- */
+/* Selects all siblings that follow a specified element, not just the next one. */
+
+/* .article ~ p {
+  background-color: blue;
+} */
+
+/* div ~ p {
+  background-color: blue;
+} */
+
+.article ~ .para {
+  background-color: blue;
+}

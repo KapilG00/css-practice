@@ -1,0 +1,64 @@
+/* by writing it in root we can access it in any element */
+:root{
+    /* syntax to create custom variables */
+    --custom-primary-color: orange;
+    --custom-width: 330px;
+}
+
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    /* syntax to create custom variables */
+    --custom-primary-color: orange;
+    --custom-width: 330px;
+    background-color: antiquewhite;
+    width: var(--custom-width);
+    height: 600px;
+    border: 1px solid brown;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+    /* box-shadow: 10px 10px brown; */
+
+    /* <length> in x-direction | <length> in y-direction | <length> blur-radius | <color> */
+    /* box-shadow: 10px 10px 15px orange; */
+
+    /* <length> in x-direction | <length> in y-direction | <length> blur-radius | <length> spread-radius | <color> */
+    box-shadow: 10px 10px 15px 5px var(--custom-primary-color);
+
+    /* <inset> | <length> in x-direction | <length> in y-direction | <color> */
+    /* box-shadow: inset 10px 10px var(--custom-primary-color); */
+
+    /* Any number of shadows, separated by commas */
+    /* box-shadow: 10px 10px var(--custom-primary-color) inset, -10px 10px 10px olive; */
+}
+
+#title1{
+    /* offset-x | offset-y | blur-radius | color */
+    /* text-shadow: 2px 2px 3px orange; */
+    
+    /* color | offset-x | offset-y | blur-radius */
+    /* text-shadow: var(--custom-primary-color) 2px 2px 3px; */
+
+    /* offset-x | offset-y | color */
+    /* text-shadow: 2px 2px var(--custom-primary-color); */
+
+    /* offset-x | offset-y
+    /* Use defaults for color and blur-radius */
+    /* default color is black */
+    /* default blur-radius is zero */
+    text-shadow: 2px 2px;
+}
+
+img{
+    width: 330px;
+    height: 330px;
+}

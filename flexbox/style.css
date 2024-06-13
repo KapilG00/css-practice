@@ -1,0 +1,83 @@
+.container{
+    background-color: beige;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 2px;
+    height: 2000px;
+    display: flex;
+    /* if flex-direction is row then main axis would be horizontal otherwise main axis would be vertical */
+    flex-direction: row;
+
+    /* adding wrap inside flex */
+    /* flex-wrap: wrap; */
+
+    /* to write flex-direction and flex-wrap on a same line */
+    /* flex-flow: row wrap; */
+
+    /* it places elements according to main axis */
+    justify-content: start;
+
+    /* it places elements according to cross axis */
+    /* by default it is set to flex-stretch */
+    align-items: start;
+
+    /* to handle the spaces in between lines of content */
+    align-content: start;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    padding: 2px;
+    margin: 2px;
+
+    /* to put 'box' name at center of each box div we need to make box a flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box1{
+    background-color: red;
+
+    /* to order a flex-item position */
+    /* order: 4; */
+
+    /* to set a custom speed of shrink for any flex-item */
+    /* flex-shrink: 4; */
+
+    /* first it takes all the space available and also let any flex-item to grow at custom speed */
+    /* flex-grow: 10; */
+    
+    /* used to fix the dimension of any flex-item */
+    flex-basis: 400px;
+    
+    /* to align the flex-item according to cross axis */
+    align-self: center;
+}
+
+#box2{
+    background-color: green;
+
+    /* first it takes all the space available */
+    /* flex-grow: 1; */
+}
+
+#box3{
+    background-color: blue;
+
+    /* first it takes all the space available */
+    /* flex-grow: 1; */
+}
+
+#box4{
+    background-color: orange;
+
+    /* to order a flex-item position */
+    /* order: -1; */
+
+    /* first it takes all the space available */
+    /* flex-grow: 1; */
+}
