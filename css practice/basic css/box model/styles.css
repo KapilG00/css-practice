@@ -1,0 +1,93 @@
+/* NOTE: By default the CSS width and height property is for the CONTENT. */
+
+/* -------------- CONTENT BOX ---------------- */
+
+/* 
+    1. The main width and height is given to the CONTENT ONLY.
+    2. The other things (padding, margin and border) adds up in the element.
+*/
+
+/* 1. */
+
+/* .container {
+  width: 90px;
+  height: 60px;
+} */
+
+/* 2. */
+
+/* .container {
+  box-sizing: content-box;
+  height: 50px;
+  width: 60px;
+
+  border: 5px solid black;
+  margin: 200px;
+  padding: 10px;
+} */
+
+/* 3. */
+
+/* .container {
+    height: 50px;
+    width: 60px;
+  
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 3px;
+} */
+
+/* ------------ BORDER BOX --------------- */
+
+/* 
+    content + padding + border :  would be the width and height.
+*/
+
+/* 1. */
+
+/* .container {
+  box-sizing: border-box;
+
+  height: 50px;
+  width: 60px;
+
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+} */
+
+/* 2. */
+
+/* .container {
+  box-sizing: border-box;
+
+  height: 50px;
+  width: 60px;
+
+  border: 10px solid black;
+  margin: 10px;
+  padding: 10px;
+} */
+
+/* 3. */
+
+.container {
+  box-sizing: border-box;
+
+  height: 50px;
+  width: 60px;
+
+  border: 10px solid black;
+  margin: 10px;
+}
+
+
+/* WHY USE BORDER BOXING INSTEAD OF CONTENT BOXING */
+
+/*
+  "Border box" the ELEMENT size doesn't change.
+  "Content box" the ELEMENT size will change.
+*/
