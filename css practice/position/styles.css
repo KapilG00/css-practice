@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.container1 {
+    position: relative;
+    background-color: orange;
+    top: 20px;
+    right: 20px;
+}
+
+.container2 {
+    background-color: red;
+    /* position: absolute;
+    right: 40px;
+    top: 40px; */
+}
+
+.container3 {
+    background-color: green;
+}
+
+.parent {
+    position: relative;
+    height: 400px;
+    background-color: aqua;
+}
