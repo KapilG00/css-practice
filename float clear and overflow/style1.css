@@ -1,6 +1,6 @@
 .box{
     border: 1px solid black;
-    /* if we dont write this then parent element gets collapsed */
+    /* if we don't write this then parent element gets collapsed */
     overflow: auto;
 }
 
