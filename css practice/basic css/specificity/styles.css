@@ -1,0 +1,22 @@
+#paraId {
+    color: orange;
+}
+
+.paraClass {
+    color: purple;
+}
+
+body .paraClass {
+    color: blue;
+}
+
+/* Here i am giving more info because of which it will win versus #paraId. */
+body #paraId {
+    color: violet;
+}
+
+/* If we want to make #paraId win in every scenario then we use !important. */
+/* Note: Never use it. */
+/* .paraClass {
+    color: green !important;
+} */
