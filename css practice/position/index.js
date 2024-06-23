@@ -37,3 +37,22 @@
     -> Positioning attributes work here (left, top , right, bottom, z-index).
     -> It is taking its own static position as a relative position from there it will try to position itself.
 */
+
+/*
+    3. Fixed:
+    
+    -> The element is positioned relative to the viewport. or browser window.
+    -> On-scroll: the element will be fixed on the screen.
+
+    -> Used for something like "Navigation", etc.
+*/
+
+/*
+    4. Sticky
+
+    -> Combination of "relative" position and "fixed" position. 
+    -> Sticky is a relative position until you scroll the page.
+
+    -> It will behave as sticky till the parents container. (PARENT || BODY)
+    -> Until ceiling of the viewport hits.
+*/
